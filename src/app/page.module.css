@@ -78,7 +78,138 @@
   transition: all .3s ease-in-out;
 }
 
+/* LEFT AND RIGHT SECTION */
+.leftCont,
+.rightCont {
+  padding: 30px 0px;
+  width: 100%;
+}
+
+.leftCont {
+  background-color: #030303;
+}
+
+.rightCont {
+  background-color: #fff;
+  padding: 30px;
+}
+
+.rightCont>p:nth-child(1) {
+  font-size: 30px;
+  line-height: 33px;
+  font-family: "Roboto", sans-serif;
+}
+
+.rightCont>p:nth-child(2) {
+  font-size: 14px;
+  font-family: "Nunito", sans-serif;
+  text-transform: uppercase;
+  color: #354053;
+}
+
+.block {
+  display: block;
+  color: #fff;
+
+}
+
+.block>p:nth-child(1) {
+  font-size: 40px;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+  line-height: 49px;
+  display: flex;
+  justify-content: center;
+}
+
+.block>p:nth-child(2) {
+  font-size: 0.86667rem;
+  font-family: "Nunito", sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+/* ABOUT US */
+.AboutWrapper {
+  margin-top: 10%;
+}
+
+.Atitle {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: #f78b77;
+}
+
+.title {
+  margin-top: 10%;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 800;
+  color: #354053;
+}
+
+.title>p:nth-child(2) {
+  font-size: 18px;
+  font-family: "Nunito", sans-serif;
+  font-weight: normal;
+  color: #354053;
+  line-height: 30px;
+}
+
+.imageOne,
+.imageTwo,
+.imageThree {
+  background-size: cover;
+  background-position: center;
+  height: 40vh;
+  border-radius: 0.4rem;
+}
+
+.imageOne {
+  background-image: url('/img3.jpg');
+}
+
+.imageTwo {
+  background-image: url('/img1.jpg');
+}
+
+.imageThree {
+  background-image: url('/img2.jpg');
+}
+
 /* Mobile and Tablet */
-@media (max-width: 1023px) {}
+@media (max-width: 1024px) {
+  .rightCont>p:nth-child(1) {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .rightCont>p:nth-child(2) {
+    font-size: 12px;
+    text-align: center;
+  }
+
+  .Atitle {
+    text-align: center;
+  }
+
+  .titleOne {
+    text-align: center;
+  }
+
+  .titleOne>p:nth-child(2) {
+    text-align: center;
+  }
+}
+
+@media(max-width: 768px) {
+
+  .imageOne,
+  .imageTwo,
+  .imageThree {
+    display: none;
+  }
+}
 
 @media (prefers-color-scheme: dark) {}

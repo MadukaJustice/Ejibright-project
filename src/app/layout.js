@@ -3,6 +3,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./globals.css";
 import Nav from "./components/nav";
 import Hero from "./components/Hero";
+import Consult from "./components/ConsultSection";
+import About from "./components/AboutSection";
 
 export const metadata = {
   title: "Eji-Bright multi-company",
@@ -25,6 +27,8 @@ export default function RootLayout({ children }) {
       <body className="body">
         <Nav />
         <Hero />
+        <Consult />
+        <About />
         {children}
       </body>
     </html>
