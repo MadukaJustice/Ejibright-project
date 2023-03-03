@@ -11,32 +11,30 @@ const Consult = () => {
   return (
     <>
       <div>
-        <Container>
-          <Row className="g-0">
-            <Col lg={6}>
-              <div className={styles.leftCont}>
-                <Container>
-                  <Row>
-                    {accomplisment.map(({ numbers, label }, index) => (
-                      <Col sm={6} lg={4} key={index} xs={6}>
-                        <div className={styles.block}>
-                          <p>{numbers}+</p>
-                          <p>{label}</p>
-                        </div>
-                      </Col>
-                    ))}
-                  </Row>
-                </Container>
-              </div>
-            </Col>
-            <Col lg={6}>
-              <div className={styles.rightCont}>
-                <p>Making the right decision at the right time.</p>
-                <p>Reliability to deliver at any services required.</p>
-              </div>
-            </Col>
-          </Row>
-        </Container>
+        <Row className="g-0">
+          <Col lg={6}>
+            <div className={styles.leftCont}>
+              <Container>
+                <Row>
+                  {accomplisment.map(({ numbers, label }, index) => (
+                    <Col sm={6} lg={4} key={index} xs={6}>
+                      <div className={styles.block}>
+                        <p>{numbers}+</p>
+                        <p>{label}</p>
+                      </div>
+                    </Col>
+                  ))}
+                </Row>
+              </Container>
+            </div>
+          </Col>
+          <Col lg={6}>
+            <div className={styles.rightCont}>
+              <p>Making the right decision at the right time.</p>
+              <p>Reliability to deliver at any services required.</p>
+            </div>
+          </Col>
+        </Row>
       </div>
     </>
   );
