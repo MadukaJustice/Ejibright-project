@@ -27,7 +27,7 @@ body {
 .navbar-container {
   display: flex;
   justify-content: space-between;
-  height: 64px;
+  height: 104px;
   align-items: center;
 }
 

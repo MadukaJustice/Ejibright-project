@@ -1,5 +1,6 @@
 import "../../globals.css";
 import Link from "next/link";
+import Image from 'next/image'
 
 const links = [
   { href: "/", label: "Home" },
@@ -29,7 +30,10 @@ const Nav = () => {
                 </li>
              ))}
             </ul>
-            <h1 className="logo">Ejibright</h1>
+            <h1 className="logo">
+              {/* <Image src="/logo.png" alt="logo" height={150} width={150} /> */}
+              Ejibright
+            </h1>
           </div>
         </nav>
       </div>

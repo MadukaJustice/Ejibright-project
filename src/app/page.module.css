@@ -227,7 +227,7 @@
 }
 .communityWrapper {
   position: relative;
-  background: linear-gradient(69.35deg, rgba(0, 0, 0, 0.1)0%, rgba(0, 0, 0, 0.1) 99.45%), linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/community.jpg") no-repeat 10% -130%;
+  background: linear-gradient(69.35deg, rgba(30,34,40,.5)0%, rgba(30,34,40,.5) 99.45%), linear-gradient(0deg, rgba(30,34,40,.5), rgba(30,34,40,.5)), url("/community.jpg") no-repeat 10% -130%;
   height: 500px;
   background-size: cover;
   background-attachment: fixed;
