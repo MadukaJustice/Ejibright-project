@@ -1,7 +1,9 @@
 "use client";
 
+import Link from "next/link";
 import { Col, Container, Row } from "react-bootstrap";
 import styles from "../../page.module.css";
+import OrangeButton from "../Button/button";
 
 const About = () => {
   return (
@@ -21,6 +23,11 @@ const About = () => {
                   indicate our determination to cater to our vision of basic
                   needs.
                 </p>
+                <div className={styles.buttonContainer}>
+                  <Link href="/about">
+                    <OrangeButton text="Read More" />
+                  </Link>
+                </div>
               </div>
             </Col>
             <Col sm={6}>
@@ -40,6 +47,11 @@ const About = () => {
                   contribute to, and positively impact the development of our
                   society at large.
                 </p>
+                <div className={styles.buttonContainer}>
+                  <Link href="/about">
+                    <OrangeButton text="Read More" />
+                  </Link>
+                </div>
               </div>
             </Col>
             <Col sm={6}>
@@ -49,6 +61,11 @@ const About = () => {
                   We are poised to deliver exceptional service which creates
                   long term Customer loyalty and retention.
                 </p>
+                <div className={styles.buttonContainer}>
+                  <Link href="/about">
+                    <OrangeButton text="Read More" />
+                  </Link>
+                </div>
               </div>
             </Col>
             <Col sm={6}>

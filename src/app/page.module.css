@@ -78,6 +78,14 @@
   transition: all .3s ease-in-out;
 }
 
+.buttonContainer {
+  margin-bottom: 10%;
+}
+
+.buttonContainer>a {
+  text-decoration: none;
+}
+
 /* LEFT AND RIGHT SECTION */
 .leftCont,
 .rightCont {
@@ -104,7 +112,7 @@
   font-size: 14px;
   font-family: "Nunito", sans-serif;
   text-transform: uppercase;
-  color: #354053;
+  color: #969AA6;
 }
 
 .block {
@@ -162,7 +170,7 @@
 .imageThree {
   background-size: cover;
   background-position: center;
-  height: 40vh;
+  height: 300px;
   border-radius: 0.4rem;
 }
 
@@ -171,7 +179,7 @@
 }
 
 .imageTwo {
-  background-image: url('/img1.jpg');
+  background-image: url('/img6.jpg');
 }
 
 .imageThree {

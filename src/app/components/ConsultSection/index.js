@@ -18,7 +18,7 @@ const Consult = () => {
                 <Container>
                   <Row>
                     {accomplisment.map(({ numbers, label }, index) => (
-                      <Col sm={6} key={index}  xs={6}>
+                      <Col sm={6} lg={4} key={index} xs={6}>
                         <div className={styles.block}>
                           <p>{numbers}+</p>
                           <p>{label}</p>
