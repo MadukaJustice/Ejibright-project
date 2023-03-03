@@ -5,6 +5,7 @@ import Nav from "./components/nav";
 import Hero from "./components/Hero";
 import Consult from "./components/ConsultSection";
 import About from "./components/AboutSection";
+import Community from "./components/Community";
 
 export const metadata = {
   title: "Eji-Bright multi-company",
@@ -29,6 +30,7 @@ export default function RootLayout({ children }) {
         <Hero />
         <Consult />
         <About />
+        <Community />
         {children}
       </body>
     </html>
